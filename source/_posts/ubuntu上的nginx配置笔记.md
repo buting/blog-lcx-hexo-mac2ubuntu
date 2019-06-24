@@ -21,6 +21,8 @@ nginx -t
 systemctl start  nginx    (注意写法，nginx写在最后)  
 systemctl reload nginx  
 systemctl restart nginx  
+systemctl start tomcat (tomcat)
+systemctl status tomcat
 - 第二种  
 
 nginx -s  reload  
